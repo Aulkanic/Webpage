@@ -377,7 +377,7 @@ const Navbar = () => {
                     return(
                       <>
                       <div className='cardprofile'>
-                      <Card elevation={2} sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',height:'170px',width:'170px',border:'none'}}>
+                      <Card elevation={2} sx={{display:'flex',flexDirection:'column',alignItems:'center',height:'170px',width:'170px',border:'none'}}>
                       <div className='backgroundimg' style={{backgroundImage:`url(${data.background})`}}>
                         <div className='circular' style={{padding:'5px',borderRadius:'50%',position:'relative'}}>
                         <Avatar alt="Remy Sharp" src={data.profile} size="lg" />
